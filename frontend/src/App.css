@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #17191f;
+  color: #ddd;
+}
+
+.main{
+  max-width: 360px;
+  margin: 30px auto;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h1 span{
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+form{
+  margin-top: 20px;
+}
+
+form input{
+  width: 100%;
+  padding: 2px 5px;
+  gap: 2px;
+  border-radius: 5px;
+  border: 2px solid #30313d;
+  margin-bottom: 5px;
+}
+
+form input[type='datetime-local']{
+  color: #777;
+}
+
+form .datetime-local{
+  color: #888;
+}
+
+.basic{
+  display: flex;
+}
+
+button{
+  width: 100%;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+.transaction{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-top: 1px solid goldenrod;
+}
+
+.transaction:first-child{
+  border: none;
+}
+
+.name{
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.desc{
+  font-size: 0.8rem;
+}
+
+.red{
+  color: #c11;
+}
+
+.green{
+  color: #1c1;
+}
+
+.right{
+  text-align: right;
+}
